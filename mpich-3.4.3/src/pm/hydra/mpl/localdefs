@@ -1,0 +1,7 @@
+#! /bin/sh
+# When configured within MPICH via PAC_CONFIG_SUBDIR, this file will be sourced
+# by the top-level configure.  This lets us propagate shell variable changes
+# back upstream.
+
+CPPFLAGS="  -I/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/src/mpl/include -I/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/src/mpl/include -I/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/modules/yaksa/src/frontend/include -I/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/modules/yaksa/src/frontend/include -I/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/modules/json-c -I/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/modules/json-c -D_REENTRANT -I/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/src/mpi/romio/include"
+WRAPPER_LIBS="$WRAPPER_LIBS -lpthread "

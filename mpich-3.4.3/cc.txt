@@ -1,0 +1,1597 @@
+Making clean in src/mpl
+make[1]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/src/mpl'
+ rm -f strsep
+test -z "" || rm -f 
+rm -rf .libs _libs
+rm -rf src/atomic/.libs src/atomic/_libs
+rm -rf src/bt/.libs src/bt/_libs
+rm -rf src/dbg/.libs src/dbg/_libs
+rm -rf src/env/.libs src/env/_libs
+rm -rf src/gavl/.libs src/gavl/_libs
+rm -rf src/gpu/.libs src/gpu/_libs
+rm -rf src/mem/.libs src/mem/_libs
+rm -rf src/msg/.libs src/msg/_libs
+rm -rf src/shm/.libs src/shm/_libs
+rm -rf src/sock/.libs src/sock/_libs
+rm -rf src/str/.libs src/str/_libs
+rm -rf src/thread/.libs src/thread/_libs
+rm -rf src/timer/.libs src/timer/_libs
+test -z "libmpl.la" || rm -f libmpl.la
+rm -f ./so_locations
+rm -f *.o
+rm -f src/atomic/*.o
+rm -f src/atomic/*.lo
+rm -f src/bt/*.o
+rm -f src/bt/*.lo
+rm -f src/dbg/*.o
+rm -f src/dbg/*.lo
+rm -f src/env/*.o
+rm -f src/env/*.lo
+rm -f src/gavl/*.o
+rm -f src/gavl/*.lo
+rm -f src/gpu/*.o
+rm -f src/gpu/*.lo
+rm -f src/mem/*.o
+rm -f src/mem/*.lo
+rm -f src/msg/*.o
+rm -f src/msg/*.lo
+rm -f src/shm/*.o
+rm -f src/shm/*.lo
+rm -f src/sock/*.o
+rm -f src/sock/*.lo
+rm -f src/str/*.o
+rm -f src/str/*.lo
+rm -f src/thread/*.o
+rm -f src/thread/*.lo
+rm -f src/timer/*.o
+rm -f src/timer/*.lo
+rm -f test/*.o
+test -z "strsep.log" || rm -f strsep.log
+test -z "strsep.trs" || rm -f strsep.trs
+test -z "test-suite.log" || rm -f test-suite.log
+rm -f *.lo
+make[1]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/src/mpl'
+Making clean in modules/hwloc
+make[1]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/modules/hwloc'
+Making clean in include
+make[2]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/modules/hwloc/include'
+rm -rf .libs _libs
+rm -f *.lo
+make[2]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/modules/hwloc/include'
+Making clean in hwloc
+make[2]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/modules/hwloc/hwloc'
+test -z "" || rm -f 
+test -z "" || rm -f 
+rm -rf .libs _libs
+test -z "libhwloc_embedded.la" || rm -f libhwloc_embedded.la
+rm -f ./so_locations
+test -z "      " || rm -f       
+rm -f *.o
+rm -f *.lo
+make[2]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/modules/hwloc/hwloc'
+make[2]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/modules/hwloc'
+rm -rf .libs _libs
+rm -f *.lo
+make[2]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/modules/hwloc'
+make[1]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/modules/hwloc'
+Making clean in /home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/modules/json-c
+make[1]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/modules/json-c'
+Making clean in .
+make[2]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/modules/json-c'
+test -z "" || rm -f 
+rm -rf .libs _libs
+test -z "libjson-c.la" || rm -f libjson-c.la
+rm -f ./so_locations
+rm -f *.o
+rm -f *.lo
+make[2]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/modules/json-c'
+Making clean in tests
+make[2]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/modules/json-c/tests'
+ rm -f test_util_file test_float test1 test2 test4 testReplaceExisting test_parse_int64 test_deep_copy test_null test_cast test_double_serializer test_parse test_locale test_charcase test_printbuf test_set_serializer test_compare test_set_value test_visit test_json_pointer test_int_add test1Formatted test2Formatted
+rm -rf .libs _libs
+rm -f *.o
+test -z "test_util_file.log test_float.log test1.log test2.log test4.log testReplaceExisting.log test_parse_int64.log test_deep_copy.log test_null.log test_cast.log test_double_serializer.log test_parse.log test_locale.log test_charcase.log test_printbuf.log test_set_serializer.log test_compare.log test_set_value.log test_visit.log test_json_pointer.log test_int_add.log" || rm -f test_util_file.log test_float.log test1.log test2.log test4.log testReplaceExisting.log test_parse_int64.log test_deep_copy.log test_null.log test_cast.log test_double_serializer.log test_parse.log test_locale.log test_charcase.log test_printbuf.log test_set_serializer.log test_compare.log test_set_value.log test_visit.log test_json_pointer.log test_int_add.log
+test -z "test_util_file.trs test_float.trs test1.trs test2.trs test4.trs testReplaceExisting.trs test_parse_int64.trs test_deep_copy.trs test_null.trs test_cast.trs test_double_serializer.trs test_parse.trs test_locale.trs test_charcase.trs test_printbuf.trs test_set_serializer.trs test_compare.trs test_set_value.trs test_visit.trs test_json_pointer.trs test_int_add.trs" || rm -f test_util_file.trs test_float.trs test1.trs test2.trs test4.trs testReplaceExisting.trs test_parse_int64.trs test_deep_copy.trs test_null.trs test_cast.trs test_double_serializer.trs test_parse.trs test_locale.trs test_charcase.trs test_printbuf.trs test_set_serializer.trs test_compare.trs test_set_value.trs test_visit.trs test_json_pointer.trs test_int_add.trs
+test -z "test-suite.log" || rm -f test-suite.log
+rm -f *.lo
+make[2]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/modules/json-c/tests'
+make[1]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/modules/json-c'
+Making clean in modules/yaksa
+make[1]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/modules/yaksa'
+test -z "test/simple/simple_test test/simple/lbub test/simple/threaded_test test/pack/pack test/iov/iov test/flatten/flatten examples/contig examples/vector examples/hvector examples/indexed_block examples/hindexed_block examples/indexed examples/hindexed examples/resized examples/subarray examples/fuf examples/iov" || rm -f test/simple/simple_test test/simple/lbub test/simple/threaded_test test/pack/pack test/iov/iov test/flatten/flatten examples/contig examples/vector examples/hvector examples/indexed_block examples/hindexed_block examples/indexed examples/hindexed examples/resized examples/subarray examples/fuf examples/iov
+test -z "" || rm -f 
+rm -rf .libs _libs
+rm -rf examples/.libs examples/_libs
+rm -rf src/backend/cuda/hooks/.libs src/backend/cuda/hooks/_libs
+rm -rf src/backend/cuda/md/.libs src/backend/cuda/md/_libs
+rm -rf src/backend/cuda/pup/.libs src/backend/cuda/pup/_libs
+rm -rf src/backend/seq/hooks/.libs src/backend/seq/hooks/_libs
+rm -rf src/backend/seq/pup/.libs src/backend/seq/pup/_libs
+rm -rf src/backend/src/.libs src/backend/src/_libs
+rm -rf src/backend/ze/hooks/.libs src/backend/ze/hooks/_libs
+rm -rf src/backend/ze/md/.libs src/backend/ze/md/_libs
+rm -rf src/backend/ze/pup/.libs src/backend/ze/pup/_libs
+rm -rf src/frontend/bounds/.libs src/frontend/bounds/_libs
+rm -rf src/frontend/flatten/.libs src/frontend/flatten/_libs
+rm -rf src/frontend/info/.libs src/frontend/info/_libs
+rm -rf src/frontend/init/.libs src/frontend/init/_libs
+rm -rf src/frontend/iov/.libs src/frontend/iov/_libs
+rm -rf src/frontend/pup/.libs src/frontend/pup/_libs
+rm -rf src/frontend/types/.libs src/frontend/types/_libs
+rm -rf src/util/.libs src/util/_libs
+rm -rf test/dtpools/.libs test/dtpools/_libs
+rm -rf test/dtpools/src/.libs test/dtpools/src/_libs
+rm -rf test/flatten/.libs test/flatten/_libs
+rm -rf test/iov/.libs test/iov/_libs
+rm -rf test/pack/.libs test/pack/_libs
+rm -rf test/simple/.libs test/simple/_libs
+test -z "libyaksa.la" || rm -f libyaksa.la
+rm -f ./so_locations
+rm -f *.o
+rm -f examples/*.o
+rm -f src/backend/cuda/hooks/*.o
+rm -f src/backend/cuda/hooks/*.lo
+rm -f src/backend/cuda/md/*.o
+rm -f src/backend/cuda/md/*.lo
+rm -f src/backend/cuda/pup/*.o
+rm -f src/backend/cuda/pup/*.lo
+rm -f src/backend/seq/hooks/*.o
+rm -f src/backend/seq/hooks/*.lo
+rm -f src/backend/seq/pup/*.o
+rm -f src/backend/seq/pup/*.lo
+rm -f src/backend/src/*.o
+rm -f src/backend/src/*.lo
+rm -f src/backend/ze/hooks/*.o
+rm -f src/backend/ze/hooks/*.lo
+rm -f src/backend/ze/md/*.o
+rm -f src/backend/ze/md/*.lo
+rm -f src/backend/ze/pup/*.o
+rm -f src/backend/ze/pup/*.lo
+rm -f src/frontend/bounds/*.o
+rm -f src/frontend/bounds/*.lo
+rm -f src/frontend/flatten/*.o
+rm -f src/frontend/flatten/*.lo
+rm -f src/frontend/info/*.o
+rm -f src/frontend/info/*.lo
+rm -f src/frontend/init/*.o
+rm -f src/frontend/init/*.lo
+rm -f src/frontend/iov/*.o
+rm -f src/frontend/iov/*.lo
+rm -f src/frontend/pup/*.o
+rm -f src/frontend/pup/*.lo
+rm -f src/frontend/types/*.o
+rm -f src/frontend/types/*.lo
+rm -f src/util/*.o
+rm -f src/util/*.lo
+rm -f test/dtpools/src/*.o
+rm -f test/dtpools/src/*.lo
+rm -f test/flatten/*.o
+rm -f test/iov/*.o
+rm -f test/pack/*.o
+rm -f test/simple/*.o
+rm -f *.lo
+make[1]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/modules/yaksa'
+Making clean in src/mpi/romio
+make[1]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/src/mpi/romio'
+make[2]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/src/mpi/romio'
+test -z "" || rm -f 
+rm -rf .libs _libs
+rm -rf adio/ad_daos/.libs adio/ad_daos/_libs
+rm -rf adio/ad_gpfs/.libs adio/ad_gpfs/_libs
+rm -rf adio/ad_gpfs/bg/.libs adio/ad_gpfs/bg/_libs
+rm -rf adio/ad_gpfs/pe/.libs adio/ad_gpfs/pe/_libs
+rm -rf adio/ad_ime/.libs adio/ad_ime/_libs
+rm -rf adio/ad_lustre/.libs adio/ad_lustre/_libs
+rm -rf adio/ad_nfs/.libs adio/ad_nfs/_libs
+rm -rf adio/ad_panfs/.libs adio/ad_panfs/_libs
+rm -rf adio/ad_pvfs2/.libs adio/ad_pvfs2/_libs
+rm -rf adio/ad_quobytefs/.libs adio/ad_quobytefs/_libs
+rm -rf adio/ad_testfs/.libs adio/ad_testfs/_libs
+rm -rf adio/ad_ufs/.libs adio/ad_ufs/_libs
+rm -rf adio/ad_xfs/.libs adio/ad_xfs/_libs
+rm -rf adio/common/.libs adio/common/_libs
+rm -rf mpi-io/.libs mpi-io/_libs
+rm -rf mpi-io/fortran/.libs mpi-io/fortran/_libs
+rm -rf mpi-io/glue/.libs mpi-io/glue/_libs
+rm -rf mpi-io/glue/default/.libs mpi-io/glue/default/_libs
+rm -rf mpi-io/glue/mpich/.libs mpi-io/glue/mpich/_libs
+test -z "libromio.la " || rm -f libromio.la 
+rm -f ./so_locations
+rm -f *.o
+rm -f adio/ad_daos/*.o
+rm -f adio/ad_daos/*.lo
+rm -f adio/ad_gpfs/*.o
+rm -f adio/ad_gpfs/*.lo
+rm -f adio/ad_gpfs/bg/*.o
+rm -f adio/ad_gpfs/bg/*.lo
+rm -f adio/ad_gpfs/pe/*.o
+rm -f adio/ad_gpfs/pe/*.lo
+rm -f adio/ad_ime/*.o
+rm -f adio/ad_ime/*.lo
+rm -f adio/ad_lustre/*.o
+rm -f adio/ad_lustre/*.lo
+rm -f adio/ad_nfs/*.o
+rm -f adio/ad_nfs/*.lo
+rm -f adio/ad_panfs/*.o
+rm -f adio/ad_panfs/*.lo
+rm -f adio/ad_pvfs2/*.o
+rm -f adio/ad_pvfs2/*.lo
+rm -f adio/ad_quobytefs/*.o
+rm -f adio/ad_quobytefs/*.lo
+rm -f adio/ad_testfs/*.o
+rm -f adio/ad_testfs/*.lo
+rm -f adio/ad_ufs/*.o
+rm -f adio/ad_ufs/*.lo
+rm -f adio/ad_xfs/*.o
+rm -f adio/ad_xfs/*.lo
+rm -f adio/common/*.o
+rm -f adio/common/*.lo
+rm -f mpi-io/*.o
+rm -f mpi-io/*.lo
+rm -f mpi-io/fortran/*.o
+rm -f mpi-io/fortran/*.lo
+rm -f mpi-io/glue/*.o
+rm -f mpi-io/glue/*.lo
+rm -f mpi-io/glue/default/*.o
+rm -f mpi-io/glue/default/*.lo
+rm -f mpi-io/glue/mpich/*.o
+rm -f mpi-io/glue/mpich/*.lo
+rm -f *.lo
+make[2]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/src/mpi/romio'
+make[1]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/src/mpi/romio'
+Making clean in src/pm/hydra
+make[1]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/src/pm/hydra'
+Making clean in mpl
+make[2]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/src/pm/hydra/mpl'
+ rm -f strsep
+test -z "" || rm -f 
+rm -rf .libs _libs
+rm -rf src/atomic/.libs src/atomic/_libs
+rm -rf src/bt/.libs src/bt/_libs
+rm -rf src/dbg/.libs src/dbg/_libs
+rm -rf src/env/.libs src/env/_libs
+rm -rf src/gavl/.libs src/gavl/_libs
+rm -rf src/gpu/.libs src/gpu/_libs
+rm -rf src/mem/.libs src/mem/_libs
+rm -rf src/msg/.libs src/msg/_libs
+rm -rf src/shm/.libs src/shm/_libs
+rm -rf src/sock/.libs src/sock/_libs
+rm -rf src/str/.libs src/str/_libs
+rm -rf src/thread/.libs src/thread/_libs
+rm -rf src/timer/.libs src/timer/_libs
+test -z "libmpl.la" || rm -f libmpl.la
+rm -f ./so_locations
+rm -f *.o
+rm -f src/atomic/*.o
+rm -f src/atomic/*.lo
+rm -f src/bt/*.o
+rm -f src/bt/*.lo
+rm -f src/dbg/*.o
+rm -f src/dbg/*.lo
+rm -f src/env/*.o
+rm -f src/env/*.lo
+rm -f src/gavl/*.o
+rm -f src/gavl/*.lo
+rm -f src/gpu/*.o
+rm -f src/gpu/*.lo
+rm -f src/mem/*.o
+rm -f src/mem/*.lo
+rm -f src/msg/*.o
+rm -f src/msg/*.lo
+rm -f src/shm/*.o
+rm -f src/shm/*.lo
+rm -f src/sock/*.o
+rm -f src/sock/*.lo
+rm -f src/str/*.o
+rm -f src/str/*.lo
+rm -f src/thread/*.o
+rm -f src/thread/*.lo
+rm -f src/timer/*.o
+rm -f src/timer/*.lo
+rm -f test/*.o
+test -z "strsep.log" || rm -f strsep.log
+test -z "strsep.trs" || rm -f strsep.trs
+test -z "test-suite.log" || rm -f test-suite.log
+rm -f *.lo
+make[2]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/src/pm/hydra/mpl'
+Making clean in tools/topo/hwloc/hwloc
+make[2]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/src/pm/hydra/tools/topo/hwloc/hwloc'
+Making clean in include
+make[3]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/src/pm/hydra/tools/topo/hwloc/hwloc/include'
+rm -rf .libs _libs
+rm -f *.lo
+make[3]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/src/pm/hydra/tools/topo/hwloc/hwloc/include'
+Making clean in hwloc
+make[3]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/src/pm/hydra/tools/topo/hwloc/hwloc/hwloc'
+test -z "" || rm -f 
+test -z "" || rm -f 
+rm -rf .libs _libs
+test -z "libhwloc_embedded.la" || rm -f libhwloc_embedded.la
+rm -f ./so_locations
+test -z "      " || rm -f       
+rm -f *.o
+rm -f *.lo
+make[3]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/src/pm/hydra/tools/topo/hwloc/hwloc/hwloc'
+make[3]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/src/pm/hydra/tools/topo/hwloc/hwloc'
+rm -rf .libs _libs
+rm -f *.lo
+make[3]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/src/pm/hydra/tools/topo/hwloc/hwloc'
+make[2]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/src/pm/hydra/tools/topo/hwloc/hwloc'
+Making clean in .
+make[2]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/src/pm/hydra'
+ rm -f hydra_persist hydra_nameserver hydra_pmi_proxy mpiexec.hydra
+rm -rf .libs _libs
+rm -rf pm/pmiserv/.libs pm/pmiserv/_libs
+rm -rf tools/bootstrap/external/.libs tools/bootstrap/external/_libs
+rm -rf tools/bootstrap/persist/.libs tools/bootstrap/persist/_libs
+rm -rf tools/bootstrap/src/.libs tools/bootstrap/src/_libs
+rm -rf tools/bootstrap/utils/.libs tools/bootstrap/utils/_libs
+rm -rf tools/debugger/.libs tools/debugger/_libs
+rm -rf tools/demux/.libs tools/demux/_libs
+rm -rf tools/topo/.libs tools/topo/_libs
+rm -rf tools/topo/hwloc/.libs tools/topo/hwloc/_libs
+rm -rf ui/utils/.libs ui/utils/_libs
+rm -rf utils/alloc/.libs utils/alloc/_libs
+rm -rf utils/args/.libs utils/args/_libs
+rm -rf utils/dbg/.libs utils/dbg/_libs
+rm -rf utils/env/.libs utils/env/_libs
+rm -rf utils/launch/.libs utils/launch/_libs
+rm -rf utils/others/.libs utils/others/_libs
+rm -rf utils/signals/.libs utils/signals/_libs
+rm -rf utils/sock/.libs utils/sock/_libs
+rm -rf utils/string/.libs utils/string/_libs
+test -z "libhydra.la libpm.la" || rm -f libhydra.la libpm.la
+rm -f ./so_locations
+rm -f *.o
+rm -f pm/pmiserv/*.o
+rm -f pm/pmiserv/*.lo
+rm -f tools/bootstrap/external/*.o
+rm -f tools/bootstrap/external/*.lo
+rm -f tools/bootstrap/persist/*.o
+rm -f tools/bootstrap/persist/*.lo
+rm -f tools/bootstrap/src/*.o
+rm -f tools/bootstrap/src/*.lo
+rm -f tools/bootstrap/utils/*.o
+rm -f tools/bootstrap/utils/*.lo
+rm -f tools/debugger/*.o
+rm -f tools/debugger/*.lo
+rm -f tools/demux/*.o
+rm -f tools/demux/*.lo
+rm -f tools/nameserver/*.o
+rm -f tools/topo/*.o
+rm -f tools/topo/*.lo
+rm -f tools/topo/hwloc/*.o
+rm -f tools/topo/hwloc/*.lo
+rm -f ui/mpich/*.o
+rm -f ui/utils/*.o
+rm -f ui/utils/*.lo
+rm -f utils/alloc/*.o
+rm -f utils/alloc/*.lo
+rm -f utils/args/*.o
+rm -f utils/args/*.lo
+rm -f utils/dbg/*.o
+rm -f utils/dbg/*.lo
+rm -f utils/env/*.o
+rm -f utils/env/*.lo
+rm -f utils/launch/*.o
+rm -f utils/launch/*.lo
+rm -f utils/others/*.o
+rm -f utils/others/*.lo
+rm -f utils/signals/*.o
+rm -f utils/signals/*.lo
+rm -f utils/sock/*.o
+rm -f utils/sock/*.lo
+rm -f utils/string/*.o
+rm -f utils/string/*.lo
+rm -f *.lo
+make[2]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/src/pm/hydra'
+make[1]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/src/pm/hydra'
+Making clean in .
+make[1]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3'
+ rm -f src/env/mpichversion src/env/mpivars
+test -z "src/binding/fortran/use_mpi/mpi.mod-stamp src/binding/fortran/use_mpi/mpi.mod src/binding/fortran/use_mpi/mpi.lo src/binding/fortran/use_mpi/mpi-tmp src/binding/fortran/use_mpi/mpi_constants.mod-stamp src/binding/fortran/use_mpi/mpi_constants.mod src/binding/fortran/use_mpi/mpi_constants.lo src/binding/fortran/use_mpi/mpi_constants-tmp src/binding/fortran/use_mpi/mpi_sizeofs.mod-stamp src/binding/fortran/use_mpi/mpi_sizeofs.mod src/binding/fortran/use_mpi/mpi_sizeofs.lo src/binding/fortran/use_mpi/mpi_sizeofs-tmp src/binding/fortran/use_mpi/mpi_base.mod-stamp src/binding/fortran/use_mpi/mpi_base.mod src/binding/fortran/use_mpi/mpi_base.lo src/binding/fortran/use_mpi/mpi_base-tmp src/binding/fortran/use_mpi/mpifnoext.h src/binding/fortran/use_mpi/mpi.mod src/binding/fortran/use_mpi/mpi_sizeofs.mod src/binding/fortran/use_mpi/mpi_constants.mod src/binding/fortran/use_mpi/mpi_base.mod  " || rm -f src/binding/fortran/use_mpi/mpi.mod-stamp src/binding/fortran/use_mpi/mpi.mod src/binding/fortran/use_mpi/mpi.lo src/binding/fortran/use_mpi/mpi-tmp src/binding/fortran/use_mpi/mpi_constants.mod-stamp src/binding/fortran/use_mpi/mpi_constants.mod src/binding/fortran/use_mpi/mpi_constants.lo src/binding/fortran/use_mpi/mpi_constants-tmp src/binding/fortran/use_mpi/mpi_sizeofs.mod-stamp src/binding/fortran/use_mpi/mpi_sizeofs.mod src/binding/fortran/use_mpi/mpi_sizeofs.lo src/binding/fortran/use_mpi/mpi_sizeofs-tmp src/binding/fortran/use_mpi/mpi_base.mod-stamp src/binding/fortran/use_mpi/mpi_base.mod src/binding/fortran/use_mpi/mpi_base.lo src/binding/fortran/use_mpi/mpi_base-tmp src/binding/fortran/use_mpi/mpifnoext.h src/binding/fortran/use_mpi/mpi.mod src/binding/fortran/use_mpi/mpi_sizeofs.mod src/binding/fortran/use_mpi/mpi_constants.mod src/binding/fortran/use_mpi/mpi_base.mod  
+test -z "  lib/libmpi.la lib/libmpifort.la lib/libmpicxx.la" || rm -f   lib/libmpi.la lib/libmpifort.la lib/libmpicxx.la
+rm -f lib/so_locations
+rm -rf .libs _libs
+rm -rf lib/.libs lib/_libs
+rm -rf src/binding/cxx/.libs src/binding/cxx/_libs
+rm -rf src/binding/fortran/mpif_h/.libs src/binding/fortran/mpif_h/_libs
+rm -rf src/binding/fortran/use_mpi/.libs src/binding/fortran/use_mpi/_libs
+rm -rf src/binding/fortran/use_mpi_f08/.libs src/binding/fortran/use_mpi_f08/_libs
+rm -rf src/binding/fortran/use_mpi_f08/wrappers_c/.libs src/binding/fortran/use_mpi_f08/wrappers_c/_libs
+rm -rf src/binding/fortran/use_mpi_f08/wrappers_f/.libs src/binding/fortran/use_mpi_f08/wrappers_f/_libs
+rm -rf src/binding/fortran/use_mpi_f08/wrappers_f/profiling/.libs src/binding/fortran/use_mpi_f08/wrappers_f/profiling/_libs
+rm -rf src/env/.libs src/env/_libs
+rm -rf src/glue/romio/.libs src/glue/romio/_libs
+rm -rf src/mpi/attr/.libs src/mpi/attr/_libs
+rm -rf src/mpi/coll/.libs src/mpi/coll/_libs
+rm -rf src/mpi/coll/algorithms/recexchalgo/.libs src/mpi/coll/algorithms/recexchalgo/_libs
+rm -rf src/mpi/coll/algorithms/stubalgo/.libs src/mpi/coll/algorithms/stubalgo/_libs
+rm -rf src/mpi/coll/algorithms/treealgo/.libs src/mpi/coll/algorithms/treealgo/_libs
+rm -rf src/mpi/coll/allgather/.libs src/mpi/coll/allgather/_libs
+rm -rf src/mpi/coll/allgatherv/.libs src/mpi/coll/allgatherv/_libs
+rm -rf src/mpi/coll/allreduce/.libs src/mpi/coll/allreduce/_libs
+rm -rf src/mpi/coll/allreduce_group/.libs src/mpi/coll/allreduce_group/_libs
+rm -rf src/mpi/coll/alltoall/.libs src/mpi/coll/alltoall/_libs
+rm -rf src/mpi/coll/alltoallv/.libs src/mpi/coll/alltoallv/_libs
+rm -rf src/mpi/coll/alltoallw/.libs src/mpi/coll/alltoallw/_libs
+rm -rf src/mpi/coll/barrier/.libs src/mpi/coll/barrier/_libs
+rm -rf src/mpi/coll/bcast/.libs src/mpi/coll/bcast/_libs
+rm -rf src/mpi/coll/exscan/.libs src/mpi/coll/exscan/_libs
+rm -rf src/mpi/coll/gather/.libs src/mpi/coll/gather/_libs
+rm -rf src/mpi/coll/gatherv/.libs src/mpi/coll/gatherv/_libs
+rm -rf src/mpi/coll/iallgather/.libs src/mpi/coll/iallgather/_libs
+rm -rf src/mpi/coll/iallgatherv/.libs src/mpi/coll/iallgatherv/_libs
+rm -rf src/mpi/coll/iallreduce/.libs src/mpi/coll/iallreduce/_libs
+rm -rf src/mpi/coll/ialltoall/.libs src/mpi/coll/ialltoall/_libs
+rm -rf src/mpi/coll/ialltoallv/.libs src/mpi/coll/ialltoallv/_libs
+rm -rf src/mpi/coll/ialltoallw/.libs src/mpi/coll/ialltoallw/_libs
+rm -rf src/mpi/coll/ibarrier/.libs src/mpi/coll/ibarrier/_libs
+rm -rf src/mpi/coll/ibcast/.libs src/mpi/coll/ibcast/_libs
+rm -rf src/mpi/coll/iexscan/.libs src/mpi/coll/iexscan/_libs
+rm -rf src/mpi/coll/igather/.libs src/mpi/coll/igather/_libs
+rm -rf src/mpi/coll/igatherv/.libs src/mpi/coll/igatherv/_libs
+rm -rf src/mpi/coll/ineighbor_allgather/.libs src/mpi/coll/ineighbor_allgather/_libs
+rm -rf src/mpi/coll/ineighbor_allgatherv/.libs src/mpi/coll/ineighbor_allgatherv/_libs
+rm -rf src/mpi/coll/ineighbor_alltoall/.libs src/mpi/coll/ineighbor_alltoall/_libs
+rm -rf src/mpi/coll/ineighbor_alltoallv/.libs src/mpi/coll/ineighbor_alltoallv/_libs
+rm -rf src/mpi/coll/ineighbor_alltoallw/.libs src/mpi/coll/ineighbor_alltoallw/_libs
+rm -rf src/mpi/coll/ireduce/.libs src/mpi/coll/ireduce/_libs
+rm -rf src/mpi/coll/ireduce_scatter/.libs src/mpi/coll/ireduce_scatter/_libs
+rm -rf src/mpi/coll/ireduce_scatter_block/.libs src/mpi/coll/ireduce_scatter_block/_libs
+rm -rf src/mpi/coll/iscan/.libs src/mpi/coll/iscan/_libs
+rm -rf src/mpi/coll/iscatter/.libs src/mpi/coll/iscatter/_libs
+rm -rf src/mpi/coll/iscatterv/.libs src/mpi/coll/iscatterv/_libs
+rm -rf src/mpi/coll/neighbor_allgather/.libs src/mpi/coll/neighbor_allgather/_libs
+rm -rf src/mpi/coll/neighbor_allgatherv/.libs src/mpi/coll/neighbor_allgatherv/_libs
+rm -rf src/mpi/coll/neighbor_alltoall/.libs src/mpi/coll/neighbor_alltoall/_libs
+rm -rf src/mpi/coll/neighbor_alltoallv/.libs src/mpi/coll/neighbor_alltoallv/_libs
+rm -rf src/mpi/coll/neighbor_alltoallw/.libs src/mpi/coll/neighbor_alltoallw/_libs
+rm -rf src/mpi/coll/op/.libs src/mpi/coll/op/_libs
+rm -rf src/mpi/coll/reduce/.libs src/mpi/coll/reduce/_libs
+rm -rf src/mpi/coll/reduce_local/.libs src/mpi/coll/reduce_local/_libs
+rm -rf src/mpi/coll/reduce_scatter/.libs src/mpi/coll/reduce_scatter/_libs
+rm -rf src/mpi/coll/reduce_scatter_block/.libs src/mpi/coll/reduce_scatter_block/_libs
+rm -rf src/mpi/coll/scan/.libs src/mpi/coll/scan/_libs
+rm -rf src/mpi/coll/scatter/.libs src/mpi/coll/scatter/_libs
+rm -rf src/mpi/coll/scatterv/.libs src/mpi/coll/scatterv/_libs
+rm -rf src/mpi/coll/src/.libs src/mpi/coll/src/_libs
+rm -rf src/mpi/coll/transports/gentran/.libs src/mpi/coll/transports/gentran/_libs
+rm -rf src/mpi/coll/transports/stubtran/.libs src/mpi/coll/transports/stubtran/_libs
+rm -rf src/mpi/comm/.libs src/mpi/comm/_libs
+rm -rf src/mpi/datatype/.libs src/mpi/datatype/_libs
+rm -rf src/mpi/datatype/typerep/dataloop/.libs src/mpi/datatype/typerep/dataloop/_libs
+rm -rf src/mpi/datatype/typerep/src/.libs src/mpi/datatype/typerep/src/_libs
+rm -rf src/mpi/debugger/.libs src/mpi/debugger/_libs
+rm -rf src/mpi/errhan/.libs src/mpi/errhan/_libs
+rm -rf src/mpi/group/.libs src/mpi/group/_libs
+rm -rf src/mpi/info/.libs src/mpi/info/_libs
+rm -rf src/mpi/init/.libs src/mpi/init/_libs
+rm -rf src/mpi/misc/.libs src/mpi/misc/_libs
+rm -rf src/mpi/pt2pt/.libs src/mpi/pt2pt/_libs
+rm -rf src/mpi/request/.libs src/mpi/request/_libs
+rm -rf src/mpi/rma/.libs src/mpi/rma/_libs
+rm -rf src/mpi/spawn/.libs src/mpi/spawn/_libs
+rm -rf src/mpi/timer/.libs src/mpi/timer/_libs
+rm -rf src/mpi/topo/.libs src/mpi/topo/_libs
+rm -rf src/mpi_t/.libs src/mpi_t/_libs
+rm -rf src/mpid/ch3/channels/nemesis/netmod/none/.libs src/mpid/ch3/channels/nemesis/netmod/none/_libs
+rm -rf src/mpid/ch3/channels/nemesis/netmod/ofi/.libs src/mpid/ch3/channels/nemesis/netmod/ofi/_libs
+rm -rf src/mpid/ch3/channels/nemesis/netmod/tcp/.libs src/mpid/ch3/channels/nemesis/netmod/tcp/_libs
+rm -rf src/mpid/ch3/channels/nemesis/src/.libs src/mpid/ch3/channels/nemesis/src/_libs
+rm -rf src/mpid/ch3/channels/nemesis/utils/monitor/.libs src/mpid/ch3/channels/nemesis/utils/monitor/_libs
+rm -rf src/mpid/ch3/channels/nemesis/utils/replacements/.libs src/mpid/ch3/channels/nemesis/utils/replacements/_libs
+rm -rf src/mpid/ch3/channels/sock/src/.libs src/mpid/ch3/channels/sock/src/_libs
+rm -rf src/mpid/ch3/src/.libs src/mpid/ch3/src/_libs
+rm -rf src/mpid/ch3/util/sock/.libs src/mpid/ch3/util/sock/_libs
+rm -rf src/mpid/ch4/generic/am/.libs src/mpid/ch4/generic/am/_libs
+rm -rf src/mpid/ch4/netmod/ofi/.libs src/mpid/ch4/netmod/ofi/_libs
+rm -rf src/mpid/ch4/netmod/src/.libs src/mpid/ch4/netmod/src/_libs
+rm -rf src/mpid/ch4/netmod/stubnm/.libs src/mpid/ch4/netmod/stubnm/_libs
+rm -rf src/mpid/ch4/netmod/ucx/.libs src/mpid/ch4/netmod/ucx/_libs
+rm -rf src/mpid/ch4/shm/ipc/gpu/.libs src/mpid/ch4/shm/ipc/gpu/_libs
+rm -rf src/mpid/ch4/shm/ipc/src/.libs src/mpid/ch4/shm/ipc/src/_libs
+rm -rf src/mpid/ch4/shm/ipc/xpmem/.libs src/mpid/ch4/shm/ipc/xpmem/_libs
+rm -rf src/mpid/ch4/shm/posix/.libs src/mpid/ch4/shm/posix/_libs
+rm -rf src/mpid/ch4/shm/posix/eager/iqueue/.libs src/mpid/ch4/shm/posix/eager/iqueue/_libs
+rm -rf src/mpid/ch4/shm/posix/eager/src/.libs src/mpid/ch4/shm/posix/eager/src/_libs
+rm -rf src/mpid/ch4/shm/posix/eager/stub/.libs src/mpid/ch4/shm/posix/eager/stub/_libs
+rm -rf src/mpid/ch4/shm/posix/release_gather/.libs src/mpid/ch4/shm/posix/release_gather/_libs
+rm -rf src/mpid/ch4/shm/src/.libs src/mpid/ch4/shm/src/_libs
+rm -rf src/mpid/ch4/shm/stubshm/.libs src/mpid/ch4/shm/stubshm/_libs
+rm -rf src/mpid/ch4/src/.libs src/mpid/ch4/src/_libs
+rm -rf src/mpid/common/bc/.libs src/mpid/common/bc/_libs
+rm -rf src/mpid/common/genq/.libs src/mpid/common/genq/_libs
+rm -rf src/mpid/common/hcoll/.libs src/mpid/common/hcoll/_libs
+rm -rf src/mpid/common/sched/.libs src/mpid/common/sched/_libs
+rm -rf src/mpid/common/shm/.libs src/mpid/common/shm/_libs
+rm -rf src/nameserv/file/.libs src/nameserv/file/_libs
+rm -rf src/nameserv/pmi/.libs src/nameserv/pmi/_libs
+rm -rf src/pm/gforker/.libs src/pm/gforker/_libs
+rm -rf src/pm/remshell/.libs src/pm/remshell/_libs
+rm -rf src/pm/util/.libs src/pm/util/_libs
+rm -rf src/pmi/bgq/.libs src/pmi/bgq/_libs
+rm -rf src/pmi/pmi2/simple/.libs src/pmi/pmi2/simple/_libs
+rm -rf src/pmi/simple/.libs src/pmi/simple/_libs
+rm -rf src/util/.libs src/util/_libs
+( cd test && make  clean )
+make[2]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test'
+Making clean in mpi
+make[3]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi'
+Making clean in util
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/util'
+rm -rf .libs _libs
+rm -f *.o
+rm -f *.lo
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/util'
+Making clean in attr
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/attr'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f attrt attrend attrend2 attric attrerr attrerrcomm attrerrtype attrdeleteget attr2type attrorder attrordercomm attrordertype baseattr2 baseattrcomm fkeyval fkeyvalcomm keyval_double_free keyval_double_free_comm keyval_double_free_type keyval_double_free_win fkeyvaltype
+rm -f *.o
+rm -f *.lo
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/attr'
+Making clean in basic
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/basic'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f self simple sendrecv srtest wtime netpipe patterns adapt
+rm -f *.o
+rm -f *.lo
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/basic'
+Making clean in datatype
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/datatype'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f blockindexed_misc blockindexed_zero_count concurrent_irecv contents contig_zero_count contigstruct cxx_types dataalign darray_pack darray_cyclic gaddress get_elements get_elements_pairtype getpartelm hindexed_zeros hindexed_block hindexed_block_contents hvecblklen indexed_misc indexed_misc_oldapi large_count large_type large_type_sendrec large_vec lbub lbub_oldapi localpack longdouble lots_of_types pairtype_pack pairtype_size_extent sendrecvt2 sendrecvt4 simple_commit simple_pack simple_pack_external simple_pack_external2 simple_resized simple_size_extent simple_size_extent_oldapi sizedtypes slice_pack slice_pack_external struct_derived_zeros struct_empty_el struct_ezhov struct_no_real_types struct_pack structpack2 struct_verydeep struct_zero_count subarray subarray_pack tfree tmatchsize transpose_pack transpose_pack_oldapi tresized tresized2 triangular_pack typecommit typefree typelb typename typename_oldapi unpack unusual_noncontigs vecblklen zeroblks zeroparms
+rm -f *.o
+rm -f *.lo
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/datatype'
+Making clean in coll
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/coll'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f allgather2 allgather3 allgatherv2 allgatherv3 allgatherv4 allgather_struct allred allred2 allred3 allred4 allred5 allred6 allredmany alltoall1 alltoallv alltoallv0 alltoallw1 alltoallw2 alltoallw_zeros bcasttest bcastzerotype coll2 gatherv coll4 coll5 coll6 coll7 coll8 coll9 coll10 coll12 coll13 exscan exscan2 gather gather2 gather_big iallred ibarrier icallgather icallgatherv icallreduce icalltoall icalltoallv icalltoallw icbarrier icbcast icgather icgatherv icreduce icscatter icscatterv longuser nonblocking nonblocking2 nonblocking3 op_coll op_commutative opband opbor opbxor opland oplor oplxor opmax opmaxloc opmin opminloc opprod opsum red3 red4 red_scat_block red_scat_block2 redscat redscat2 redscat3 redscatblk3 redscatinter redscatbkinter reduce reduce_local scantst scatter2 scatter3 scattern scatterv uoplong nballtoall1 nbredscat nbredscat3 nbredscatinter nbcoll2 nbicbarrier nbicallgather nbicallgatherv nbicallreduce nbicbcast nbicalltoall nbicalltoallw nbicalltoallv nbicgather nbicgatherv nbicreduce nbicscatter nbicscatterv neighb_allgather neighb_allgatherv neighb_alltoall neighb_alltoallv neighb_alltoallw bcast bcast_comm_world_only
+rm -f *.o
+rm -f *.lo
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/coll'
+Making clean in comm
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/comm'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f commcreate1 dup dupic dup_with_info ic1 ic2 commname ctxalloc ctxsplit icgroup icsplit iccreate cmfree icm cmsplit cmsplit2 cmsplit_type comm_create_group comm_group_half comm_group_rand probe_intercomm comm_idup comm_idup_mul comm_idup_overlap comm_idup_isend comm_idup_nb comm_idup_iallreduce comm_idup_comm comm_idup_comm2 comm_create_group_idup comm_info comm_info2
+rm -f *.o
+rm -f *.lo
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/comm'
+Making clean in errhan
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errhan'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f adderr commcall commcall_oldapi errfatal predef_eh errstring2 dynamic_errcode_predefined_errclass
+rm -f *.o
+rm -f *.lo
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errhan'
+Making clean in group
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/group'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f grouptest grouptest2 groupcreate gtranks groupnullincl
+rm -f *.o
+rm -f *.lo
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/group'
+Making clean in info
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/info'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f infodup infodel infovallen infoorder infomany infomany2 infotest infoget infoenv
+rm -f *.o
+rm -f *.lo
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/info'
+Making clean in init
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/init'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f attrself exitst1 exitst2 exitst3 initstat version library_version timeout finalized
+rm -f *.o
+rm -f *.lo
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/init'
+Making clean in pt2pt
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/pt2pt'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f anyall bottom bsend1 bsend2 bsend3 bsend4 bsend5 bsendalign cancelrecv cancelanysrc isendself issendselfcancel isendirecv eagerdt isendselfprobe bsendfrag bsendpending icsend icprobe rqstatus rqfreeb greq1 scancel scancel2 rcancel pscancel scancel_unmatch sendflood sendrecv2 sendrecv3 waitany_null probe_unexp probenull inactivereq waittestnull sendall large_message mprobe big_count_status many_isend manylmt huge_underflow huge_anysrc huge_dupcomm huge_ssend multi_psend_derived dtype_send recv_any irecv_any large_tag pingping pingping_barrier sendrecv1 sendself precv_anysrc precv_anysrc_exp
+rm -f *.o
+rm -f *.lo
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/pt2pt'
+Making clean in rma
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/rma'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f allocmem test1 test2 test2_shm test3 test3_shm test4 test5 lockcontention lockcontention2 lockcontention3 lockopts contention_put contention_putget put_base put_bottom locknull wintest wintest_shm transpose1 transpose2 transpose3 transpose3_shm transpose4 transpose5 transpose6 transpose7 fetchandadd fetchandadd_tree winname putfidx accfence2 adlb_mimic1 getgroup contig_displ test1_am test2_am test2_am_shm test3_am test3_am_shm test4_am test5_am fetchandadd_am fetchandadd_tree_am accfence2_am test1_dt attrorderwin wincall fkeyvalwin baseattrwin nullpscw nullpscw_shm rmanull rmazero mixedsync manyrma2 manyrma2_shm manyrma3 selfrma strided_acc_onelock strided_putget_indexed strided_putget_indexed_shared strided_acc_indexed strided_acc_subarray strided_get_indexed strided_getacc_indexed strided_getacc_indexed_shared window_creation window_allocation window_noncontig_allocation window_attach window_attach_collattach win_flavors win_shared win_shared_noncontig win_shared_noncontig_put win_shared_zerobyte win_shared_create_allocshm win_shared_create_no_allocshm win_zero win_large_shm win_dynamic_acc win_dynamic_acc_collattach win_dynamic_rma_flush_get win_dynamic_rma_flush_get_collattach get_acc_local compare_and_swap linked_list linked_list_fop linked_list_lockall linked_list_bench_lock_all linked_list_bench_lock_excl linked_list_bench_lock_shr linked_list_bench_lock_shr_nocheck fetch_and_op_char fetch_and_op_short fetch_and_op_int fetch_and_op_long fetch_and_op_double fetch_and_op_long_double fetch_and_op_char_hwacc fetch_and_op_short_hwacc fetch_and_op_int_hwacc fetch_and_op_long_hwacc fetch_and_op_double_hwacc fetch_and_op_long_double_hwacc fetch_and_op_char_accop_hwacc fetch_and_op_short_accop_hwacc fetch_and_op_int_accop_hwacc fetch_and_op_long_accop_hwacc fetch_and_op_double_accop_hwacc fetch_and_op_long_double_accop_hwacc get_accumulate_short get_accumulate_long get_accumulate_double get_accumulate_int get_accumulate_short_derived get_accumulate_long_derived get_accumulate_double_derived get_accumulate_int_derived flush win_shared_put_flush_get reqops req_example req_example_shm win_info pscw_ordering pscw_ordering_shm mutex_bench mutex_bench_shared mutex_bench_shm mutex_bench_shm_ordered rma_contig badrma nb_test acc_loc acc_ordering fence_shm get_struct rput_local_comp racc_local_comp at_complete atomic_rmw_fop atomic_rmw_cas atomic_rmw_gacc atomic_get_short_int atomic_get_2int atomic_get_long_int atomic_get_float_int atomic_get_double_int atomic_get_long_double_int acc_pairtype acc_pairtype_shm manyget derived_acc_flush_local large_acc_flush_local large_small_acc put_flush_get acc_flush_get gacc_flush_get fop_flush_get cas_flush_get win_shared_put_flush_load win_shared_acc_flush_load win_shared_gacc_flush_load win_shared_fop_flush_load win_shared_cas_flush_load overlap_wins_put overlap_wins_acc overlap_wins_gacc overlap_wins_fop overlap_wins_cas rget_unlock lock_nested rget_testall get_flushlocal get_flushlocal_shm win_shared_query_null accfence1 accpscw1 epochtest getfence1 lock_contention_dt lock_dt lock_dt_flush lock_dt_flushlocal lockall_dt lockall_dt_flush lockall_dt_flushall lockall_dt_flushlocal lockall_dt_flushlocalall putfence1 putpscw1 aint aint_collattach
+rm -f *.o
+rm -f *.lo
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/rma'
+Making clean in topo
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/topo'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f cartmap1 cartzero cartshift1 cartsuball cartcreates dims1 dims2 dims3 dims4 dims5 graphmap1 topotest topodup graphcr graphcr2 distgraph1 dgraph_unwgt
+rm -f *.o
+rm -f *.lo
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/topo'
+Making clean in errors
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors'
+Making clean in attr
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/attr'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f keyvalmis
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/attr'
+Making clean in coll
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/coll'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f noalias noalias2 noalias3 rerr bcastlength reduce_local nb_noalias nb_rerr ibcastlength reducelength ireducelength allreducelength iallreducelength reduceop ireduceop gatherlength igatherlength scatterlength iscatterlength allgatherlength iallgatherlength alltoalllength
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/coll'
+Making clean in comm
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/comm'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f cfree ccreate1 manysplit userdup too_many_comms too_many_comms2 too_many_comms3 too_many_icomms too_many_icomms2 comm_create_nullarg comm_create_group_nullarg comm_get_info_nullarg comm_group_nullarg comm_size_nullarg comm_split_nullarg comm_split_type_nullarg intercomm_create_nullarg subcomm_abort subcomm_abort2 intercomm_abort
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/comm'
+Making clean in datatype
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/datatype'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f getcnterr type_contiguous_nullarg type_extent_nullarg type_get_extent_nullarg type_get_true_extent_nullarg type_get_true_extent_x_nullarg type_lb_nullarg type_ub_nullarg type_size_x_nullarg type_vector_nullarg
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/datatype'
+Making clean in group
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/group'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f gerr group_difference_nullarg group_intersection_nullarg group_range_excl_nullarg group_range_incl_nullarg group_rank_nullarg group_size_nullarg group_translate_ranks_nullarg group_union_nullarg
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/group'
+Making clean in pt2pt
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/pt2pt'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f proberank truncmsg1 truncmsg2 truncmsg_mrecv errinstatts errinstatta errinstatws errinstatwa
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/pt2pt'
+Making clean in rma
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/rma'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f winerr winerr2 cas_type_check win_sync_unlock win_sync_free_pt win_sync_free_at win_sync_complete win_sync_lock_at win_sync_lock_pt win_sync_lock_fence win_sync_nested win_sync_op
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/rma'
+Making clean in topo
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/topo'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f cartsmall
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/topo'
+Making clean in basic
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/basic'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f lefthandles debabort
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/basic'
+Making clean in faults
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/faults'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f pt2ptf1 pt2ptf2 collf1 collf2
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/faults'
+Making clean in io
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/io'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f fileerrret openerr file_errhdl
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/io'
+Making clean in f77
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/f77'
+Making clean in io
+make[6]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/f77/io'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f uerrhandf
+rm -f *.o
+rm -f *.lo
+make[6]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/f77/io'
+make[6]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/f77'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+rm -f *.lo
+make[6]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/f77'
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/f77'
+Making clean in f90
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/f90'
+Making clean in io
+make[6]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/f90/io'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f uerrhandf90
+rm -f *.o
+rm -f *.lo
+make[6]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/f90/io'
+make[6]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/f90'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+rm -f *.lo
+make[6]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/f90'
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/f90'
+Making clean in cxx
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/cxx'
+Making clean in io
+make[6]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/cxx/io'
+test -z "summary.xml summary.tap" || rm -f summary.xml summary.tap
+rm -rf .libs _libs
+ rm -f fileerrretx errgetfilex throwtestfilex
+rm -f *.o
+rm -f *.lo
+make[6]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/cxx/io'
+Making clean in errhan
+make[6]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/cxx/errhan'
+test -z "summary.xml summary.tap" || rm -f summary.xml summary.tap
+rm -rf .libs _libs
+ rm -f commerrx errgetx errsetx throwtest
+rm -f *.o
+rm -f *.lo
+make[6]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/cxx/errhan'
+make[6]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/cxx'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+rm -f *.lo
+make[6]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/cxx'
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/cxx'
+Making clean in spawn
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/spawn'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f badport unpub lookup_name connect_timeout_no_accept connect_timeout_mismatch
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors/spawn'
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors'
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/errors'
+Making clean in manual
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/manual'
+Making clean in mpi_t
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/manual/mpi_t'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f mpit_test mpit_test2 nem_fbox_fallback_to_queue_count unexpected_recvq_buffer_size
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/manual/mpi_t'
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/manual'
+test -z "summary.xml summary.tap summary.junit.xml test-port" || rm -f summary.xml summary.tap summary.junit.xml test-port
+rm -rf .libs _libs
+ rm -f singjoin testconnect testconnectserial dimsbalanced spawntest_parent spawntest_child segfault gpu_query
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/manual'
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/manual'
+Making clean in perf
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/perf'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f transp_datatype non_zero_root sendrecvl twovec dtpack allredtrace commcreatep allredtrace commcreatep timer manyrma nestvec nestvec2 indexperf gtranksperf
+rm -f *.o
+rm -f *.lo
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/perf'
+Making clean in mpi_t
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/mpi_t'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f mpi_t_str mpit_vars cvarwrite getindex
+rm -f *.o
+rm -f *.lo
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/mpi_t'
+Making clean in impls
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/impls'
+Making clean in mpich
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/impls/mpich'
+Making clean in mpi_t
+make[6]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/impls/mpich/mpi_t'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f collparmt
+rm -f *.o
+rm -f *.lo
+make[6]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/impls/mpich/mpi_t'
+Making clean in comm
+make[6]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/impls/mpich/comm'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f comm_info_hint
+rm -f *.o
+rm -f *.lo
+make[6]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/impls/mpich/comm'
+make[6]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/impls/mpich'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+rm -f *.lo
+make[6]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/impls/mpich'
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/impls/mpich'
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/impls'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/impls'
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/impls'
+Making clean in ckpoint
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/ckpoint'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f write_ckpoint
+rm -f *.o
+rm -f *.lo
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/ckpoint'
+Making clean in ft
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/ft'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f die abort sendalive isendalive senddead recvdead isenddead irecvdead barrier gather reduce bcast scatter failure_ack anysource revoke_nofail shrink agree multi_isendalive agree_shrink revoke_shrink nbccoll
+rm -f *.o
+rm -f *.lo
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/ft'
+Making clean in dtpools
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/dtpools'
+Making clean in src
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/dtpools/src'
+rm -rf .libs _libs
+test -z "libdtpools.la" || rm -f libdtpools.la
+rm -f ./so_locations
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/dtpools/src'
+Making clean in include
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/dtpools/include'
+rm -rf .libs _libs
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/dtpools/include'
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/dtpools'
+rm -rf .libs _libs
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/dtpools'
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/dtpools'
+Making clean in io
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/io'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+rm -f testfile testfile.*
+ rm -f rdwrord rdwrzero getextent setinfo setviewcur i_noncontig async async_any userioerr resized resized2 bigtype hindexed_io simple_collective external32_derived_dtype tst_fileview zero_count i_bigtype i_hindexed_io i_rdwrord i_setviewcur i_aggregation1 i_aggregation2 i_coll_test i_darray_read i_hindexed i_noncontig_coll i_noncontig_coll2 i_types_with_zeros
+rm -f *.o
+rm -f *.lo
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/io'
+Making clean in f77
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77'
+Making clean in attr
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77/attr'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f attrmpi1f baseattrf baseattr2f commattrf commattr2f commattr3f commattr4f typeattrf typeattr2f typeattr3f
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77/attr'
+Making clean in datatype
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77/datatype'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f typenamef typesnamef typecntsf typesubf typem2f gaddressf packef allctypesf hindex1f hindexed_blockf typename3f bottom
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77/datatype'
+Making clean in coll
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77/coll'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f uallreducef exscanf alltoallwf inplacef allredint8f allredopttf reducelocalf alltoallvf redscatf split_typef nonblockingf vw_inplacef red_scat_blockf nonblocking_inpf
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77/coll'
+Making clean in pt2pt
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77/pt2pt'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f sendf ssendf rsendf isendf irsendf issendf psendf prsendf pssendf sendrecvf sendrecvreplf statusesf greqf mprobef
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77/pt2pt'
+Making clean in info
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77/info'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f infotestf infotest2f
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77/info'
+Making clean in init
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77/init'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f baseenvf
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77/init'
+Making clean in comm
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77/comm'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f commnamef commerrf
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77/comm'
+Making clean in topo
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77/topo'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f cartcrf dgraph_wgtf dgraph_unwgtf
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77/topo'
+Making clean in ext
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77/ext'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f c2f2cf ctypesinf c2fmult
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77/ext'
+Making clean in profile
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77/profile'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f profile1f
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77/profile'
+Making clean in spawn
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77/spawn'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f namepubf spawnf spawnargvf spawnmultf spawnmult2f connaccf
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77/spawn'
+Making clean in io
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77/io'
+test -z "summary.xml summary.tap summary.junit.xml gen-src-tmp gen-src-stamp" || rm -f summary.xml summary.tap summary.junit.xml gen-src-tmp gen-src-stamp
+rm -rf .libs _libs
+rm -f .iotest.txt.*
+ rm -f iwriteatf iwritef iwriteshf writef writeatf writeallf writeallbef writeordf writeordbef writeshf writeatallf writeatallbef fileerrf fileinfof shpositionf atomicityf miscfilef setviewcurf c2fmultio c2f2ciof i_setviewcurf iwriteatallf
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77/io'
+Making clean in rma
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77/rma'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f winscale1f winscale2f winfencef wingetf winerrf winnamef wingroupf winaccf winaccf c2f2cwinf baseattrwinf winattrf winattr2f aintf
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77/rma'
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77'
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f77'
+Making clean in f90
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90'
+Making clean in timer
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/timer'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f wtimef90
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/timer'
+Making clean in attr
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/attr'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+if [ "mod" != "" ] ; then rm -f *.mod ; fi
+ rm -f attrmpi1f90 baseattrf90 baseattr2f90 commattrf90 commattr2f90 commattr3f90 commattr4f90 typeattrf90 typeattr2f90 typeattr3f90 fandcattrf90 baseattr3f90 attrlangf90
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/attr'
+Making clean in coll
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/coll'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f uallreducef90 exscanf90 alltoallwf90 inplacef90 allredint8f90 allredopttf90 reducelocalf90 alltoallvf90 redscatf90 split_typef90 nonblockingf90 vw_inplacef90 red_scat_blockf90 nonblocking_inpf90
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/coll'
+Making clean in datatype
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/datatype'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f typenamef90 typesnamef90 typecntsf90 typesubf90 typem2f90 gaddressf90 packef90 allctypesf90 hindex1f90 hindexed_blockf90 typename3f90 bottom structf indtype createf90 sizeof kinds trf90 get_elem_u
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/datatype'
+Making clean in pt2pt
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/pt2pt'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f sendf90 ssendf90 rsendf90 isendf90 irsendf90 issendf90 psendf90 prsendf90 pssendf90 sendrecvf90 sendrecvreplf90 statusesf90 greqf90 mprobef90
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/pt2pt'
+Making clean in info
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/info'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f infotestf90 infotest2f90
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/info'
+Making clean in comm
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/comm'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f commnamef90 commerrf90
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/comm'
+Making clean in topo
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/topo'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f cartcrf90 dgraph_wgtf90 dgraph_unwgtf90
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/topo'
+Making clean in ext
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/ext'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f c2f2cf90 ctypesinf90 c2f90mult
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/ext'
+Making clean in init
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/init'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f baseenvf90
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/init'
+Making clean in misc
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/misc'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f sizeof2
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/misc'
+Making clean in f90types
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/f90types'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f createf90types
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/f90types'
+Making clean in profile
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/profile'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f profile1f90
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/profile'
+Making clean in rma
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/rma'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f winscale1f90 winscale2f90 winfencef90 wingetf90 winerrf90 winnamef90 wingroupf90 winaccf90 winaccf90 c2f2cwinf90 baseattrwinf90 winattrf90 winattr2f90 aintf90
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/rma'
+Making clean in spawn
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/spawn'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f namepubf90 spawnf90 spawnargvf90 spawnmultf90 spawnmult2f90 connaccf90 spawnargvf03 spawnmultf03
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/spawn'
+Making clean in io
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/io'
+test -z "summary.xml summary.tap summary.junit.xml gen-src-tmp gen-src-stamp" || rm -f summary.xml summary.tap summary.junit.xml gen-src-tmp gen-src-stamp
+rm -rf .libs _libs
+rm -f .iotest.txt.*
+ rm -f iwriteatf90 iwritef90 iwriteshf90 writef90 writeatf90 writeallf90 writeallbef90 writeordf90 writeordbef90 writeshf90 writeatallf90 writeatallbef90 fileerrf90 fileinfof90 shpositionf90 atomicityf90 miscfilef90 setviewcurf90 c2f90multio c2f2ciof90 i_setviewcurf90 iwriteatallf90
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90/io'
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90'
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/f90'
+Making clean in cxx
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx'
+Making clean in attr
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx/attr'
+test -z "summary.xml summary.tap" || rm -f summary.xml summary.tap
+rm -rf .libs _libs
+ rm -f attrtx attricx baseattrcommx fkeyvalcommx fkeyvaltypex
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx/attr'
+Making clean in pt2pt
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx/pt2pt'
+test -z "summary.xml summary.tap" || rm -f summary.xml summary.tap
+rm -rf .libs _libs
+ rm -f bsend1cxx sendrecvx
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx/pt2pt'
+Making clean in init
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx/init'
+test -z "summary.xml summary.tap" || rm -f summary.xml summary.tap
+rm -rf .libs _libs
+ rm -f baseenv initstatx initstat2x
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx/init'
+Making clean in info
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx/info'
+test -z "summary.xml summary.tap" || rm -f summary.xml summary.tap
+rm -rf .libs _libs
+ rm -f infodupx infodelx infovallenx infoorderx
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx/info'
+Making clean in comm
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx/comm'
+test -z "summary.xml summary.tap" || rm -f summary.xml summary.tap
+rm -rf .libs _libs
+ rm -f commname2
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx/comm'
+Making clean in coll
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx/coll'
+test -z "summary.xml summary.tap" || rm -f summary.xml summary.tap
+rm -rf .libs _libs
+ rm -f arcomplex uallredx uallreduce ureduce ureducelocal uscan uexscan icbcastx icbarrierx icgatherx icgathervx icscatterx icscattervx icallgatherx icallgathervx icallreducex icreducex icalltoallx alltoallw2x reduceboolx redscatblk
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx/coll'
+Making clean in datatype
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx/datatype'
+test -z "summary.xml summary.tap" || rm -f summary.xml summary.tap
+rm -rf .libs _libs
+ rm -f typecntsx typenamex typemiscx packsizex
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx/datatype'
+Making clean in errhan
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx/errhan'
+test -z "summary.xml summary.tap" || rm -f summary.xml summary.tap
+rm -rf .libs _libs
+ rm -f commcallx
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx/errhan'
+Making clean in topo
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx/topo'
+test -z "summary.xml summary.tap" || rm -f summary.xml summary.tap
+rm -rf .libs _libs
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx/topo'
+Making clean in io
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx/io'
+test -z "summary.xml summary.tap gen-src-tmp gen-src-stamp" || rm -f summary.xml summary.tap gen-src-tmp gen-src-stamp
+rm -rf .libs _libs
+rm -f .iotest.txt.*
+ rm -f iwriteatx iwritex iwriteshx writex writeatx writeallx writeatallx writeallbex writeordx writeordbex writeshx writeatallbex iwriteatnosx iwritenosx iwriteshnosx writenosx writeatnosx writeallnosx writeatallnosx writeallbenosx writeordnosx writeordbenosx writeshnosx writeatallbenosx fileerrx fileinfox shpositionx setinfox filemiscx seekavail
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx/io'
+Making clean in rma
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx/rma'
+test -z "summary.xml summary.tap" || rm -f summary.xml summary.tap
+rm -rf .libs _libs
+ rm -f winnamex wincallx getgroupx winfencex winscale1x winscale2x fkeyvalwinx
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx/rma'
+Making clean in spawn
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx/spawn'
+test -z "summary.xml summary.tap" || rm -f summary.xml summary.tap
+rm -rf .libs _libs
+ rm -f spawnargvx spawnintrax namepubx selfconaccx
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx/spawn'
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx'
+test -z "summary.xml summary.tap" || rm -f summary.xml summary.tap
+rm -rf .libs _libs
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx'
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/cxx'
+Making clean in threads
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/threads'
+Making clean in pt2pt
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/threads/pt2pt'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f threads threaded_sr alltoall sendselfth greq_wait greq_test multisend multisend2 multisend3 multisend4 ibsend mt_sendrecv mt_bsendrecv mt_ssendrecv mt_isendirecv mt_ibsendirecv mt_issendirecv mt_sendrecv_huge mt_bsendrecv_huge mt_ssendrecv_huge mt_isendirecv_huge mt_ibsendirecv_huge mt_issendirecv_huge mt_probe_isendrecv mt_probe_sendrecv mt_iprobe_isendrecv mt_iprobe_sendrecv mt_mprobe_isendrecv mt_mprobe_sendrecv mt_mprobe_sendirecv mt_improbe_isendrecv mt_improbe_sendrecv mt_probe_sendrecv_huge mt_iprobe_sendrecv_huge mt_mprobe_sendrecv_huge mt_improbe_sendrecv_huge mt_sendrecv_pers_huge mt_bsendrecv_pers_huge mt_ssendrecv_pers_huge mt_mpicancel
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/threads/pt2pt'
+Making clean in comm
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/threads/comm'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f ctxdup dup_leak_test comm_dup_deadlock comm_create_threads comm_create_group_threads comm_create_group_threads2 comm_idup idup_deadlock ctxidup idup_nb idup_comm_gen
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/threads/comm'
+Making clean in init
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/threads/init'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f initth
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/threads/init'
+Making clean in mpi_t
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/threads/mpi_t'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f mpit_threading
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/threads/mpi_t'
+Making clean in spawn
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/threads/spawn'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f multispawn th_taskmanager
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/threads/spawn'
+Making clean in rma
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/threads/rma'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f multirma multiget multifence
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/threads/rma'
+Making clean in coll
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/threads/coll'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f iallred allred
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/threads/coll'
+Making clean in perf
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/threads/perf'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f mt_pt2pt_msgrate
+rm -f *.o
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/threads/perf'
+make[5]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/threads'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+rm -f *.lo
+make[5]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/threads'
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/threads'
+Making clean in spawn
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/spawn'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+ rm -f namepub spawn1 spawninfo1 spawnminfo1 spawn2 spawnintra spawnargv spawnmanyarg spaconacc spaconacc2 selfconacc spawnmult2 taskmanager join disconnect_reconnect disconnect_reconnect2 disconnect_reconnect3 multiple_ports multiple_ports2 spaiccreate spaiccreate2 disconnect disconnect2 disconnect3 pgroup_connect_test pgroup_intercomm_test concurrent_spawns spawn_rootargs
+rm -f *.o
+rm -f *.lo
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi/spawn'
+Making clean in .
+make[4]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi'
+test -z "summary.xml summary.tap summary.junit.xml" || rm -f summary.xml summary.tap summary.junit.xml
+rm -rf .libs _libs
+rm -f *.lo
+make[4]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi'
+make[3]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/mpi'
+Making clean in commands
+make[3]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/commands'
+test -z "err.txt out.log out.txt a.out" || rm -f err.txt out.log out.txt a.out
+rm -rf .libs _libs
+ rm -f stdiotest stdintest stdintest2 checkenv1 rtest rtestf rtestx testout
+rm -f *.o
+rm -f *.lo
+make[3]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test/commands'
+Making clean in .
+make[3]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test'
+rm -rf .libs _libs
+rm -f *.lo
+make[3]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test'
+make[2]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/test'
+test -z "" || rm -f 
+test -z " " || rm -f  
+rm -f *.o
+rm -f src/binding/cxx/*.o
+rm -f src/binding/cxx/*.lo
+rm -f src/binding/fortran/mpif_h/*.o
+rm -f src/binding/fortran/mpif_h/*.lo
+rm -f src/binding/fortran/use_mpi/*.o
+rm -f src/binding/fortran/use_mpi/*.lo
+rm -f src/binding/fortran/use_mpi_f08/*.o
+rm -f src/binding/fortran/use_mpi_f08/*.lo
+rm -f src/binding/fortran/use_mpi_f08/wrappers_c/*.o
+rm -f src/binding/fortran/use_mpi_f08/wrappers_c/*.lo
+rm -f src/binding/fortran/use_mpi_f08/wrappers_f/*.o
+rm -f src/binding/fortran/use_mpi_f08/wrappers_f/*.lo
+rm -f src/binding/fortran/use_mpi_f08/wrappers_f/profiling/*.o
+rm -f src/binding/fortran/use_mpi_f08/wrappers_f/profiling/*.lo
+rm -f src/env/*.o
+rm -f src/glue/romio/*.o
+rm -f src/glue/romio/*.lo
+rm -f src/mpi/attr/*.o
+rm -f src/mpi/attr/*.lo
+rm -f src/mpi/coll/*.o
+rm -f src/mpi/coll/*.lo
+rm -f src/mpi/coll/algorithms/recexchalgo/*.o
+rm -f src/mpi/coll/algorithms/recexchalgo/*.lo
+rm -f src/mpi/coll/algorithms/stubalgo/*.o
+rm -f src/mpi/coll/algorithms/stubalgo/*.lo
+rm -f src/mpi/coll/algorithms/treealgo/*.o
+rm -f src/mpi/coll/algorithms/treealgo/*.lo
+rm -f src/mpi/coll/allgather/*.o
+rm -f src/mpi/coll/allgather/*.lo
+rm -f src/mpi/coll/allgatherv/*.o
+rm -f src/mpi/coll/allgatherv/*.lo
+rm -f src/mpi/coll/allreduce/*.o
+rm -f src/mpi/coll/allreduce/*.lo
+rm -f src/mpi/coll/allreduce_group/*.o
+rm -f src/mpi/coll/allreduce_group/*.lo
+rm -f src/mpi/coll/alltoall/*.o
+rm -f src/mpi/coll/alltoall/*.lo
+rm -f src/mpi/coll/alltoallv/*.o
+rm -f src/mpi/coll/alltoallv/*.lo
+rm -f src/mpi/coll/alltoallw/*.o
+rm -f src/mpi/coll/alltoallw/*.lo
+rm -f src/mpi/coll/barrier/*.o
+rm -f src/mpi/coll/barrier/*.lo
+rm -f src/mpi/coll/bcast/*.o
+rm -f src/mpi/coll/bcast/*.lo
+rm -f src/mpi/coll/exscan/*.o
+rm -f src/mpi/coll/exscan/*.lo
+rm -f src/mpi/coll/gather/*.o
+rm -f src/mpi/coll/gather/*.lo
+rm -f src/mpi/coll/gatherv/*.o
+rm -f src/mpi/coll/gatherv/*.lo
+rm -f src/mpi/coll/iallgather/*.o
+rm -f src/mpi/coll/iallgather/*.lo
+rm -f src/mpi/coll/iallgatherv/*.o
+rm -f src/mpi/coll/iallgatherv/*.lo
+rm -f src/mpi/coll/iallreduce/*.o
+rm -f src/mpi/coll/iallreduce/*.lo
+rm -f src/mpi/coll/ialltoall/*.o
+rm -f src/mpi/coll/ialltoall/*.lo
+rm -f src/mpi/coll/ialltoallv/*.o
+rm -f src/mpi/coll/ialltoallv/*.lo
+rm -f src/mpi/coll/ialltoallw/*.o
+rm -f src/mpi/coll/ialltoallw/*.lo
+rm -f src/mpi/coll/ibarrier/*.o
+rm -f src/mpi/coll/ibarrier/*.lo
+rm -f src/mpi/coll/ibcast/*.o
+rm -f src/mpi/coll/ibcast/*.lo
+rm -f src/mpi/coll/iexscan/*.o
+rm -f src/mpi/coll/iexscan/*.lo
+rm -f src/mpi/coll/igather/*.o
+rm -f src/mpi/coll/igather/*.lo
+rm -f src/mpi/coll/igatherv/*.o
+rm -f src/mpi/coll/igatherv/*.lo
+rm -f src/mpi/coll/ineighbor_allgather/*.o
+rm -f src/mpi/coll/ineighbor_allgather/*.lo
+rm -f src/mpi/coll/ineighbor_allgatherv/*.o
+rm -f src/mpi/coll/ineighbor_allgatherv/*.lo
+rm -f src/mpi/coll/ineighbor_alltoall/*.o
+rm -f src/mpi/coll/ineighbor_alltoall/*.lo
+rm -f src/mpi/coll/ineighbor_alltoallv/*.o
+rm -f src/mpi/coll/ineighbor_alltoallv/*.lo
+rm -f src/mpi/coll/ineighbor_alltoallw/*.o
+rm -f src/mpi/coll/ineighbor_alltoallw/*.lo
+rm -f src/mpi/coll/ireduce/*.o
+rm -f src/mpi/coll/ireduce/*.lo
+rm -f src/mpi/coll/ireduce_scatter/*.o
+rm -f src/mpi/coll/ireduce_scatter/*.lo
+rm -f src/mpi/coll/ireduce_scatter_block/*.o
+rm -f src/mpi/coll/ireduce_scatter_block/*.lo
+rm -f src/mpi/coll/iscan/*.o
+rm -f src/mpi/coll/iscan/*.lo
+rm -f src/mpi/coll/iscatter/*.o
+rm -f src/mpi/coll/iscatter/*.lo
+rm -f src/mpi/coll/iscatterv/*.o
+rm -f src/mpi/coll/iscatterv/*.lo
+rm -f src/mpi/coll/neighbor_allgather/*.o
+rm -f src/mpi/coll/neighbor_allgather/*.lo
+rm -f src/mpi/coll/neighbor_allgatherv/*.o
+rm -f src/mpi/coll/neighbor_allgatherv/*.lo
+rm -f src/mpi/coll/neighbor_alltoall/*.o
+rm -f src/mpi/coll/neighbor_alltoall/*.lo
+rm -f src/mpi/coll/neighbor_alltoallv/*.o
+rm -f src/mpi/coll/neighbor_alltoallv/*.lo
+rm -f src/mpi/coll/neighbor_alltoallw/*.o
+rm -f src/mpi/coll/neighbor_alltoallw/*.lo
+rm -f src/mpi/coll/op/*.o
+rm -f src/mpi/coll/op/*.lo
+rm -f src/mpi/coll/reduce/*.o
+rm -f src/mpi/coll/reduce/*.lo
+rm -f src/mpi/coll/reduce_local/*.o
+rm -f src/mpi/coll/reduce_local/*.lo
+rm -f src/mpi/coll/reduce_scatter/*.o
+rm -f src/mpi/coll/reduce_scatter/*.lo
+rm -f src/mpi/coll/reduce_scatter_block/*.o
+rm -f src/mpi/coll/reduce_scatter_block/*.lo
+rm -f src/mpi/coll/scan/*.o
+rm -f src/mpi/coll/scan/*.lo
+rm -f src/mpi/coll/scatter/*.o
+rm -f src/mpi/coll/scatter/*.lo
+rm -f src/mpi/coll/scatterv/*.o
+rm -f src/mpi/coll/scatterv/*.lo
+rm -f src/mpi/coll/src/*.o
+rm -f src/mpi/coll/src/*.lo
+rm -f src/mpi/coll/transports/gentran/*.o
+rm -f src/mpi/coll/transports/gentran/*.lo
+rm -f src/mpi/coll/transports/stubtran/*.o
+rm -f src/mpi/coll/transports/stubtran/*.lo
+rm -f src/mpi/comm/*.o
+rm -f src/mpi/comm/*.lo
+rm -f src/mpi/datatype/*.o
+rm -f src/mpi/datatype/*.lo
+rm -f src/mpi/datatype/typerep/dataloop/*.o
+rm -f src/mpi/datatype/typerep/dataloop/*.lo
+rm -f src/mpi/datatype/typerep/src/*.o
+rm -f src/mpi/datatype/typerep/src/*.lo
+rm -f src/mpi/debugger/*.o
+rm -f src/mpi/debugger/*.lo
+rm -f src/mpi/errhan/*.o
+rm -f src/mpi/errhan/*.lo
+rm -f src/mpi/group/*.o
+rm -f src/mpi/group/*.lo
+rm -f src/mpi/info/*.o
+rm -f src/mpi/info/*.lo
+rm -f src/mpi/init/*.o
+rm -f src/mpi/init/*.lo
+rm -f src/mpi/misc/*.o
+rm -f src/mpi/misc/*.lo
+rm -f src/mpi/pt2pt/*.o
+rm -f src/mpi/pt2pt/*.lo
+rm -f src/mpi/request/*.o
+rm -f src/mpi/request/*.lo
+rm -f src/mpi/rma/*.o
+rm -f src/mpi/rma/*.lo
+rm -f src/mpi/spawn/*.o
+rm -f src/mpi/spawn/*.lo
+rm -f src/mpi/timer/*.o
+rm -f src/mpi/timer/*.lo
+rm -f src/mpi/topo/*.o
+rm -f src/mpi/topo/*.lo
+rm -f src/mpi_t/*.o
+rm -f src/mpi_t/*.lo
+rm -f src/mpid/ch3/channels/nemesis/netmod/none/*.o
+rm -f src/mpid/ch3/channels/nemesis/netmod/none/*.lo
+rm -f src/mpid/ch3/channels/nemesis/netmod/ofi/*.o
+rm -f src/mpid/ch3/channels/nemesis/netmod/ofi/*.lo
+rm -f src/mpid/ch3/channels/nemesis/netmod/tcp/*.o
+rm -f src/mpid/ch3/channels/nemesis/netmod/tcp/*.lo
+rm -f src/mpid/ch3/channels/nemesis/src/*.o
+rm -f src/mpid/ch3/channels/nemesis/src/*.lo
+rm -f src/mpid/ch3/channels/nemesis/utils/monitor/*.o
+rm -f src/mpid/ch3/channels/nemesis/utils/monitor/*.lo
+rm -f src/mpid/ch3/channels/nemesis/utils/replacements/*.o
+rm -f src/mpid/ch3/channels/nemesis/utils/replacements/*.lo
+rm -f src/mpid/ch3/channels/sock/src/*.o
+rm -f src/mpid/ch3/channels/sock/src/*.lo
+rm -f src/mpid/ch3/src/*.o
+rm -f src/mpid/ch3/src/*.lo
+rm -f src/mpid/ch3/util/sock/*.o
+rm -f src/mpid/ch3/util/sock/*.lo
+rm -f src/mpid/ch4/generic/am/*.o
+rm -f src/mpid/ch4/generic/am/*.lo
+rm -f src/mpid/ch4/netmod/ofi/*.o
+rm -f src/mpid/ch4/netmod/ofi/*.lo
+rm -f src/mpid/ch4/netmod/src/*.o
+rm -f src/mpid/ch4/netmod/src/*.lo
+rm -f src/mpid/ch4/netmod/stubnm/*.o
+rm -f src/mpid/ch4/netmod/stubnm/*.lo
+rm -f src/mpid/ch4/netmod/ucx/*.o
+rm -f src/mpid/ch4/netmod/ucx/*.lo
+rm -f src/mpid/ch4/shm/ipc/gpu/*.o
+rm -f src/mpid/ch4/shm/ipc/gpu/*.lo
+rm -f src/mpid/ch4/shm/ipc/src/*.o
+rm -f src/mpid/ch4/shm/ipc/src/*.lo
+rm -f src/mpid/ch4/shm/ipc/xpmem/*.o
+rm -f src/mpid/ch4/shm/ipc/xpmem/*.lo
+rm -f src/mpid/ch4/shm/posix/*.o
+rm -f src/mpid/ch4/shm/posix/*.lo
+rm -f src/mpid/ch4/shm/posix/eager/iqueue/*.o
+rm -f src/mpid/ch4/shm/posix/eager/iqueue/*.lo
+rm -f src/mpid/ch4/shm/posix/eager/src/*.o
+rm -f src/mpid/ch4/shm/posix/eager/src/*.lo
+rm -f src/mpid/ch4/shm/posix/eager/stub/*.o
+rm -f src/mpid/ch4/shm/posix/eager/stub/*.lo
+rm -f src/mpid/ch4/shm/posix/release_gather/*.o
+rm -f src/mpid/ch4/shm/posix/release_gather/*.lo
+rm -f src/mpid/ch4/shm/src/*.o
+rm -f src/mpid/ch4/shm/src/*.lo
+rm -f src/mpid/ch4/shm/stubshm/*.o
+rm -f src/mpid/ch4/shm/stubshm/*.lo
+rm -f src/mpid/ch4/src/*.o
+rm -f src/mpid/ch4/src/*.lo
+rm -f src/mpid/common/bc/*.o
+rm -f src/mpid/common/bc/*.lo
+rm -f src/mpid/common/genq/*.o
+rm -f src/mpid/common/genq/*.lo
+rm -f src/mpid/common/hcoll/*.o
+rm -f src/mpid/common/hcoll/*.lo
+rm -f src/mpid/common/sched/*.o
+rm -f src/mpid/common/sched/*.lo
+rm -f src/mpid/common/shm/*.o
+rm -f src/mpid/common/shm/*.lo
+rm -f src/nameserv/file/*.o
+rm -f src/nameserv/file/*.lo
+rm -f src/nameserv/pmi/*.o
+rm -f src/nameserv/pmi/*.lo
+rm -f src/pm/gforker/*.o
+rm -f src/pm/remshell/*.o
+rm -f src/pm/util/*.o
+rm -f src/pm/util/*.lo
+rm -f src/pmi/bgq/*.o
+rm -f src/pmi/bgq/*.lo
+rm -f src/pmi/pmi2/simple/*.o
+rm -f src/pmi/pmi2/simple/*.lo
+rm -f src/pmi/simple/*.o
+rm -f src/pmi/simple/*.lo
+rm -f src/util/*.o
+rm -f src/util/*.lo
+rm -f *.lo
+make[1]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3'
+Making clean in examples
+make[1]: Entering directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/examples'
+rm -rf .libs _libs
+ rm -f cpi
+rm -f *.o
+rm -f *.lo
+make[1]: Leaving directory `/home/gavahi/allreduce-RS-Prioritised2/mpich-3.4.3/examples'
