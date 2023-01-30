@@ -1,5 +1,6 @@
 In this work, I consider the priority of elements in reduce-scatter operation in MPI library.
-new scheduling is designed in which elements with higher priority process sooner and eliminate unnecessary delays to handle them.
+
+The new scheduling proposed in this work has been designed in which elements with higher priority process sooner and to eliminate unnecessary delays to handle them.
 
 The main implementation has been done in the Allreduce files located at src/mpi/coll/
 
