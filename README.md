@@ -5,4 +5,5 @@ The main implementation has been done in the Allreduce files located at src/mpi/
 
 
 You can find more details about this work in here:
+
 https://github.com/gavahi/Allreduce-RS-Prioritised/blob/main/Priority-aware%20MPI_Reduce-Scatter.pdf
